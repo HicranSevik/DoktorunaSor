@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".DoctorPage">
+
+    <item
+            android:id="@+id/item_remove_chat"
+            android:title="Konuşmayı Sonlandır"
+            app:showAsAction="never">
+    </item>
+
+    <item
+            android:id="@+id/item_results"
+            android:title="Tahlil Sonuçları"
+            app:showAsAction="never">
+    </item>
+
+    <item
+            android:id="@+id/item_recete_yaz"
+            android:title="Reçete Yaz"
+            app:showAsAction="never">
+    </item>
+
+    <item
+            android:id="@+id/item_receteyi_gor"
+            android:title="Reçeteyi Gör"
+            app:showAsAction="never">
+    </item>
+
+</menu>

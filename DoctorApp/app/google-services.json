@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "821232550350",
+    "firebase_url": "https://doctorapp-acbca.firebaseio.com",
+    "project_id": "doctorapp-acbca",
+    "storage_bucket": "doctorapp-acbca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821232550350:android:1b19d9836c864993",
+        "android_client_info": {
+          "package_name": "com.example.doctorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821232550350-5nrbkpn7s76fbogsopthu1qm8anq5dej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMSSQ2ZTWFhzlH_pXdNgMYU_uJqia7Ac4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

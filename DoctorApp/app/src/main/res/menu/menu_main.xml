@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".DoctorPage">
+
+    <item
+            android:id="@+id/item_profil"
+            android:title="Profile Git"
+            app:showAsAction="never">
+    </item>
+    <item
+            android:id="@+id/item_logout"
+            android:title="Çıkış Yap"
+            app:showAsAction="never">
+    </item>
+
+    <item
+            android:id="@+id/item_go_mhrs"
+            android:title="Randevu Al"
+            app:showAsAction="never">
+    </item>
+
+</menu>

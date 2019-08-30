@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2"
+        tools:context=".MainActivity">
+
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="40dp" android:layout_marginStart="84dp"/>
+
+    <EditText
+            android:id="@+id/et_tckimlik"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="@color/white"
+            android:background="@drawable/text_border"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Tc Kimlik No"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColorHint="@color/darkGrey"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="301dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="30dp"/>
+
+    <EditText
+            android:id="@+id/et_sifre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="@color/white"
+            android:background="@drawable/text_border"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="E-Devlet Sifreniz"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:layout_marginTop="18dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_tckimlik"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp" android:layout_marginEnd="30dp"/>
+
+    <CheckBox
+            android:id="@+id/cb_doktorum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/btn_border"
+            android:text="Doktorum"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_sifre"/>
+
+    <Button
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:buttonTint="@color/btn_border"
+            android:text="Giriş"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="59dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="30dp"/>
+</android.support.constraint.ConstraintLayout>
